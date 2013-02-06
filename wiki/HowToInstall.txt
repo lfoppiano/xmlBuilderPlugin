@@ -1,0 +1,14 @@
+= How to Install =
+
+If you use RPM file, you just need to download rpm file in attach part and launch 
+
+{{{
+rpm -ivh xmlBuilderPlugin-1.0-1.noarch.rpm
+}}}
+
+
+If you get souce from svn, you should go in your .gimp-2.4/plug-ins and launch:
+
+{{{
+svn checkout http://svn2.assembla.com/svn/xmlBuilderPlugin/trunk 
+}}}

@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+  <head>
+    <title>
+      example_form.png on HowToWork – Attachment
+     – xmlBuilderPlugin
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--[if IE]><script type="text/javascript">window.location.hash = window.location.hash;</script><![endif]-->
+        <link rel="search" href="/xmlBuilderPlugin/search" />
+        <link rel="help" href="/xmlBuilderPlugin/wiki/TracGuide" />
+        <link rel="alternate" href="/xmlBuilderPlugin/raw-attachment/wiki/HowToWork/example_form.png" type="image/png; charset=utf-8" title="Original Format" />
+        <link rel="up" href="/xmlBuilderPlugin/wiki/HowToWork" title="HowToWork" />
+        <link rel="start" href="/xmlBuilderPlugin/wiki" />
+        <link rel="stylesheet" href="/xmlBuilderPlugin/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/xmlBuilderPlugin/chrome/common/css/code.css" type="text/css" />
+        <link rel="shortcut icon" href="/xmlBuilderPlugin/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/xmlBuilderPlugin/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/xmlBuilderPlugin/search/opensearch" title="Search xmlBuilderPlugin" />
+    <script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/babel.js"></script><script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/trac.js"></script><script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+      <script type="text/javascript" src="/xmlBuilderPlugin/chrome/common/js/folding.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+        });
+      </script>
+    <style type="text/css">
+/* ---------------------------------------------------
+=col
+------------------------------------------------------ */
+/* span one col */
+.col {
+        /* avoid rounding errors */
+        width: 40%;
+        float: left;
+        padding: .375em  .375em .5em .375em;
+}
+.user-col {
+        float: right;
+        text-align: right;
+}
+.col a:link,
+.col a:visited {
+        color: #E3EFFC;
+        border-bottom: 1px solid #E3EFFC;
+}
+.col a:hover {
+        border-bottom: none;
+        background: transparent;
+}
+/* ---------------------------------------------------
+=header
+------------------------------------------------------ */
+#top-bar-w {
+        margin-left:-10px;
+        margin-right:-10px;
+        padding-left:10px;
+        padding-right:10px;
+        background: #2E4B73;
+        color: #5375A6;
+        font-family: Verdana, sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        width:100%;
+}
+/* ---------------------------------------------------
+=utilities
+----------------------------------------------------- */
+.cut {clear: both; height: 1px; overflow: hidden;}
+.hidden { display: none;}
+.inline { display: inline; }
+.clear-float  {
+        /* clear floated children */
+        overflow: hidden;
+        /* IE fix see:
+        http://www.positioniseverything.net/easyclearing.html
+        */
+        _height: 1%;
+}
+    </style>
+  </head>
+  <body>
+    <div id="siteheader">
+      <div id="top-bar-w">
+	<div class="col">
+	  <a href="http://www.assembla.com"><b>Assembla home</b></a> | <a href="http://www.assembla.com/spaces/show/xmlBuilderPlugin">Assembla project page</a>
+	</div>
+	<div class="col user-col">
+	  <div id="user-box">
+            <a href="http://www.assembla.com/user/start" rel="nofollow">My Start Page</a>
+            <!-- /user-box -->
+	  </div>
+	</div>
+	<!-- clear float, the old skool way -->
+	<div class="cut"> </div>
+	<!-- /top-bar-w -->
+      </div>
+    </div>
+    <div id="banner">
+      <div id="header">
+        <h1><a href="http://www.assembla.com/spaces/show/xmlBuilderPlugin">xmlBuilderPlugin</a></h1>
+      </div>
+      <form id="search" action="/xmlBuilderPlugin/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/xmlBuilderPlugin/login">Login</a></li><li><a href="/xmlBuilderPlugin/prefs">Preferences</a></li><li><a href="/xmlBuilderPlugin/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="/xmlBuilderPlugin/about">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/xmlBuilderPlugin/wiki">Wiki</a></li><li><a href="/xmlBuilderPlugin/timeline">Timeline</a></li><li><a href="/xmlBuilderPlugin/roadmap">Roadmap</a></li><li><a href="/xmlBuilderPlugin/browser">Browse Source</a></li><li><a href="/xmlBuilderPlugin/report">View Tickets</a></li><li class="last"><a href="/xmlBuilderPlugin/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="last first"><a href="/xmlBuilderPlugin/wiki/HowToWork">Back to HowToWork</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="attachment">
+        <h1><a href="/xmlBuilderPlugin/wiki/HowToWork">HowToWork</a>: example_form.png</h1>
+        <table id="info" summary="Description">
+          <tbody>
+            <tr>
+              <th scope="col">File example_form.png,
+                <span title="84798 bytes">82.8 KB</span>
+                (added by whitenoise, <a class="timeline" href="/xmlBuilderPlugin/timeline?from=2008-01-25T11%3A35%3A23Z&amp;precision=second" title="2008-01-25T11:35:23Z in Timeline">5 years</a> ago)</th>
+            </tr>
+            <tr>
+              <td class="message searchable">
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="preview" class="searchable">
+          
+  <div class="image-file"><img src="/xmlBuilderPlugin/raw-attachment/wiki/HowToWork/example_form.png" alt="example_form.png" /></div>
+
+        </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/xmlBuilderPlugin/raw-attachment/wiki/HowToWork/example_form.png">Original Format</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en">
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/xmlBuilderPlugin/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/xmlBuilderPlugin/about"><strong>Trac 0.12.3</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a><br />
+	Hosted by <a href="http://www.assembla.com">Assembla</a>
+      </p>
+      <p class="right">Breakout - Social Software to Get Things Done<br /><a title="Free SVN and Trac hosting" href="https://www.assembla.com/">https://www.assembla.com</a></p>
+    </div>
+    <div id="sitefooter">
+    </div>
+  </body>
+</html>

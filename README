@@ -1,0 +1,6 @@
+This a simple GIMP (www.gimp.org) plugin. This plugin is a small tool to grab coordinates and put out an xml usefull for jimageExtractor (http://trac2.assembla.com/jimageExtractor).
+Official website is http://trac2.assembla.com/xmlBuilderPlugin/wiki/WikiStart
+with trac + svn source. 
+
+RPM package is coming soon.
+

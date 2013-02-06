@@ -1,0 +1,68 @@
+= How to work? =
+
+Ok, how to work is the first question you can ask me. So I write a page to answer your question :-)
+
+== Introduction ==
+[[Image(curriculumSimpleB_3.png, width=200px, align=right)]] Suppose to have a scannered paper form.[[BR]]
+What you want is get data form image, and you have to identify useful image.[[BR]][[BR]][[BR]] 
+
+In image_form.png you can see two colored rectangles: 
+ * Red rectangles identify a single couple of coordinates and a single data
+ * Blue rectangles identify a groups of coordinates, and is usefull to group a multichoose data.
+[[Image(example_form.png, width=300px, align=center)]]
+
+[[Image(wiki:WikiStart:shot2-XML Builder.png, width=250px, align=right)]]
+To start plugin, just open this image with Gimp, and click on OCR -> XML Builder,[[BR]] 
+you should see a new panel in your desktop. [[BR]]
+
+If you need to first grab coordinates of a subImage used to reference, for example if you[[BR]] 
+need a preprocessing to rotate and cut external border, you have to select area of sub-image and[[BR]]
+then click on "got it" button. You should see top-left coordinate of are just selected. [[BR]]
+If you got this are, plugin simply subtract from all coordinates, the new reference origin [[BR]]
+point, for example: your image is 640x480, but you need a sub-area that start at (30,35). [[BR]]
+If you grab a coordinate at (200, 250), program subtract 30 from 200 and 35 from 250 so store (170, 215)[[BR]]
+instead (200, 250). All coordinates references are related to (30, 35) instead of (0,0).[[BR]]
+Now you are ready to grab coordinates. The procedure is 
+ * "add group" 
+   * "add coordinates"
+   * "add coordinates"
+   * "add coordinates"
+   * "close group"
+ * "add group"
+   * "add coordinates"
+   * "add coordinates"
+   * "close group"
+and so on..Every time "close group" is pressed, coordinates and group are added to model.
+You can see here two window to add coordinates and group.[[BR]]
+When you enter group of coordinates, you need to add label only if you choose "single multichoose" or[[BR]] 
+"multi multichoose" because if you choose "field", the group is composed only by an element and label of 
+element is label of group. [[BR]][[BR]]
+[[Image(wiki:WikiStart:shot3-addGroup.png)]]    [[Image(wiki:WikiStart:shot3-addGroup2.png)]]    [[Image(wiki:WikiStart:shot4-AddCoord.png)]][[BR]]
+When you add coordinates, you close group and can see result added to data model and gui: [[BR]][[BR]]
+[[Image(wiki:WikiStart:shot6-XML Builder.png, width=300px)]][[BR]][[BR]]
+
+and this is the output file is something like (I used different images and xml output file :þ):
+{{{
+#!xml
+<?xml version='1.0' encoding='utf-8'?>
+<self.document format="a4">
+        <data label="baobab" type="2">
+                <choose label="coord1" unit="px">
+                        <x1>39</x1>
+                        <y1>29</y1>
+                        <x2>155</x2>
+                        <y2>138</y2>
+                </choose>
+                <choose label="sda" unit="inc">
+                        <x1>16</x1>
+                        <y1>147</y1>
+                        <x2>125</x2>
+                        <y2>203</y2>
+                </choose>
+        </data>
+</document>
+}}}
+
+
+== Video ==
+Watch my [http://www.youtube.com/watch?v=c3jhxrDH3OI first youtube video]...I will do another in high quality ;-)

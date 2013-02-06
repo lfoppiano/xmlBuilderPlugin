@@ -1,0 +1,9 @@
+= Xml Builder Plugin =
+
+[[Image(logo_draft.png, align=right)]] Welcome to XML Builder plugin main project page.
+Xml Builder Plugin is a simple GIMP plugin written to work with [https://trac2.assembla.com/xmlBuilderPlugin jimageextractor].
+XmlBuilderPlugin can help user to create an xml image description. xml created is used as imput for jimageextractor.
+
+ * [wiki:HowToWork "How to work"]
+ * [wiki:HowToInstall "How to install"]
+

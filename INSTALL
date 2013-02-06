@@ -1,0 +1,7 @@
+just launch as root
+
+cp -r xmlBuilderPlugin/* /usr/lib/gimp/2.0/plug-ins 
+
+or 
+
+cp -r xmlBuilderPlugin/* ~/.gimp-2.4/plug-ins 
